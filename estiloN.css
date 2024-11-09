@@ -1,0 +1,45 @@
+body {
+    font-size: 100%;    
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+p{
+    font-size: 1.5em;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    background-color: cyan;
+    color: white;
+}
+
+.fonte{
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+h1 , h2 , p {
+    color: green;
+}
+
+/*Seletor de links*/
+a:link {
+    color :green
+}
+
+/*Seletor de link visitado*/
+a:visited{
+    color: green;
+}
+
+/*Seletor de link quando o mouse passa por cima*/
+a:houver{
+    color: green;
+}

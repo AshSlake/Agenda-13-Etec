@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.fonteTitulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: purple;
+}
+
+.Ação,
+.Terror,
+.Sobrevivencia {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1%;
+}
+
+.titulo {
+    background-color: white;
+    width: fit-content;
+    margin: 0 auto; 
+}
+
+.Ação {
+    flex-grow: 1;
+    color: white;
+
+}
+
+.Sobrevivencia {
+    flex-grow: 2;
+    color: white;
+}
+
+.Terror {
+    flex-grow: 1;
+    color: white;
+}
+
+img {
+    width: 100%;
+    height: 85%;
+}
+figure{
+    width: 100%;
+    height: 30%;
+}
+
+.fonte {
+    font-size: 55%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
